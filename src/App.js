@@ -1,7 +1,14 @@
 import React from 'react';
 import './App.css';
+import './Components/ImageCard'
+import ImageCard from './Components/ImageCard';
+
 function App() {
-  return <h1>You Can Do This!</h1>;
+  return (
+    <>
+      <ImageCard />
+    </>
+  )
 }
 
 export default App;
